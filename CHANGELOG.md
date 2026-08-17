@@ -3,6 +3,18 @@
 本项目所有重要变更记录于此文件。
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/),每次推送前必须更新本文件。
 
+## 2026-08-17 · 文档更新
+
+### 新增
+
+- README 新增「实际显示画面」一节:`docs/ui-preview.svg` 界面效果图,依据 `ui_create()` 的布局坐标与配色 1:1 虚拟生成
+- README 目录结构补充 `docs/`
+
+### 修正
+
+- README 功能描述与当前代码对齐:首页为 iKuai 网络监控面板(WAN 状态 / 上下行速率 / PING / 10 秒三色趋势曲线),移除已过时的「时钟 + Open-Meteo 天气」描述(代码中已无对应实现)
+- 补充 RGB 状态灯颜色语义(Wi-Fi 断开红 / iKuai 无数据橙 / 正常绿)与 `APP_DEMO_MODE` 离线演示模式说明
+
 ## 2026-08-17 · 初始发布
 
 ### 新增
